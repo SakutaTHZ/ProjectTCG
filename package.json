@@ -9,7 +9,7 @@
     "lint": "eslint .",
     "preview": "vite preview",
     "deploy": "gh-pages -d dist",
-    "postbuild": "cp dist/index.html dist/404.html"
+    "postbuild": "copy dist\\index.html dist\\404.html"
   },
   "dependencies": {
     "react": "^18.3.1",
