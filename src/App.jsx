@@ -11,7 +11,7 @@ function App() {
 
   const goToGame =()=>{
     
-    navigate("/ProjectT/GameScreen");
+    navigate("/ProjectTCG/GameScreen");
   }
 
   return (
